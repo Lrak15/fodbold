@@ -75,6 +75,7 @@ def menu():
         administration()
     if valg == '4':
         afslut()
+        exit()
     else:
         print('Du har skrevet en ikke defineret kommando, prøv igen')
         menu()
